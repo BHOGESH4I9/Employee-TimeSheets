@@ -1,0 +1,133 @@
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  background-color: rgb(224, 224, 224);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: rgba(61, 77, 105, 0.8);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.sidebar.collapsed .nav-item,
+.sidebar.collapsed .custom-link {
+  justify-content: center;          /* Centers content horizontally */
+  text-align: center;
+  padding-left: 0 !important;       /* Remove default padding */
+  padding-right: 0 !important;
+  width: 100%;                      /* Stretch full width of collapsed sidebar */
+}
+
+.sidebar.collapsed .icon-circle {
+  margin-right: 0;                  /* Remove space after icon */
+}
+
+.nav-item,
+.custom-link {
+  box-sizing: border-box;
+  color: rgba(61, 77, 105, 0.8); /* default text color */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 37px;
+  letter-spacing: normal;
+  line-height: 30px;
+  list-style: none;
+  text-align: left;
+  text-transform: capitalize;
+  unicode-bidi: isolate;
+  width: 215px;
+  padding: 4px 10px;
+  transition: all 0.2s ease;
+}
+
+/* Initial text color for Timesheets only */
+.accordion-button,
+.accordion-header .label-text {
+  color: rgb(24, 34, 134) !important;
+  font-weight: 600;
+}
+
+/* When Timesheets is expanded */
+.accordion-button:not(.collapsed) {
+  background-color: #e7f1ff;
+  color: rgb(24, 34, 134) !important;
+  font-weight: bold;
+}
+
+/* Collapse state still keeps blue text for Timesheets */
+.accordion-button.collapsed {
+  color: rgb(24, 34, 134) !important;
+}
+
+/* Timesheet child links default to sidebar gray */
+.accordion-body .nav-link {
+  color: rgba(61, 77, 105, 0.8);
+}
+
+/* Label inside links */
+.nav-link .label-text {
+  width: 175px;
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.sidebar.collapsed .label-text {
+  display: none;
+}
+
+.nav-link.active {
+  background-color: #e7f1ff;
+  color: rgb(24, 34, 134) !important;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+.section-title {
+  font-size: 0.75rem;
+  padding: 1rem 0.5rem 0.5rem;
+  color: #999;
+}
+
+.icon-circle {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #666;
+  cursor: pointer;
+}
