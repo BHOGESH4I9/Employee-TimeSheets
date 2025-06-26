@@ -1,0 +1,108 @@
+/* DailyTimesheet.css */
+
+.timesheet-container {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(61, 77, 105, 0.9);
+  background-color: #f8f9fb;
+  min-height: 100vh;
+  padding: 24px;
+  margin-left: 260px;
+  transition: margin-left 0.3s ease;
+}
+
+.timesheet-container.collapsed {
+  margin-left: 80px;
+}
+
+.timesheet-header .title {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(24, 34, 134, 1);
+}
+
+.btn-outline-secondary {
+  background-color: rgb(50, 168, 170);
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+.filters {
+  background-color: #fff;
+  padding: 16px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.04);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.filters .form-select {
+  width: 150px !important;  /* Fixed width */
+  height: 36px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3d4d69;
+}
+
+.filters input[type="date"] {
+  height: 36px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3d4d69;
+  min-width: 140px;
+}
+
+.filters .btn-outline-primary {
+  background-color: white;
+  color: #3d4d69;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  height: 36px;
+  padding: 0 14px;
+}
+
+.small-dropdown {
+  min-width: 150px;
+}
+
+.timezone-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(61, 77, 105, 0.9);
+}
+
+
+.profile-summary {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.05);
+  padding: 20px;
+}
+
+.profile-summary img {
+  object-fit: cover;
+  border: 2px solid #32a8aa;
+}
+
+.profile-summary h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.profile-summary .fw-semibold {
+  font-size: 16px;
+  color: rgb(24, 34, 134);
+}
+
+.profile-summary .text-muted {
+  font-size: 13px;
+}
