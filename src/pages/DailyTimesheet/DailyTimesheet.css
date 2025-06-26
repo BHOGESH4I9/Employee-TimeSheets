@@ -147,3 +147,38 @@
 .hour-task .task-desc {
   font-size: 0.8rem;
 }
+
+.alert-current-task {
+  background-color: #d6ecff; /* Light powder blue */
+  border-left: 5px solid #3399ff; /* A medium blue border */
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 123, 255, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.alert-current-task:hover {
+  background-color: #cce5ff;
+}
+
+.alert-current-task {
+  background-color: #b3d9ff !important; /* Light powder blue */
+  border-left: 5px solid #3399ff;
+}
+
+.lunch-block {
+  background-color: #fff3cd;
+  border-left: 5px solid #ffc107;
+}
+
+.worked {
+  background-color: #e9ecef;
+}
+
+.not-worked {
+  background-color: #f8f9fa;
+}
+
+.highlight-task {
+  background-color: #d1ecf1;
+  border-left: 5px solid #17a2b8;
+}
