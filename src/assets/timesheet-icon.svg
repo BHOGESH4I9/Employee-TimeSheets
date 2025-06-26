@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-timesheet">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="timesheet" clip-path="url(#clip-timesheet)">
+    <g id="Group_108" data-name="Group 108" transform="translate(-42.244 -415.146)">
+      <g id="Group_107" data-name="Group 107" transform="translate(45.55 416.492)">
+        <g id="Group_104" data-name="Group 104" transform="translate(10.2 19.858)">
+          <path id="Path_214" data-name="Path 214" d="M51.425,428.906a.975.975,0,0,1,.977-.976H69.981a.977.977,0,0,1,0,1.953H52.4A.976.976,0,0,1,51.425,428.906Z" transform="translate(-51.425 -427.93)" fill="#5c6d7e"/>
+          <path id="Path_215" data-name="Path 215" d="M51.425,432.281a.975.975,0,0,1,.977-.976H69.981a.977.977,0,0,1,0,1.953H52.4A.976.976,0,0,1,51.425,432.281Z" transform="translate(-51.425 -425.445)" fill="#5c6d7e"/>
+        </g>
+        <path id="Path_216" data-name="Path 216" d="M73.117,418.992H57.384a7.759,7.759,0,0,1-6.965,11.285,7.98,7.98,0,0,1-.868-.087V449.5a2.476,2.476,0,0,0,2.478,2.476H73.117a2.476,2.476,0,0,0,2.476-2.476V421.469A2.477,2.477,0,0,0,73.117,418.992Z" transform="translate(-42.605 -414.652)" fill="none" stroke="#5c6d7e" stroke-miterlimit="10" stroke-width="2.5"/>
+        <g id="Group_106" data-name="Group 106">
+          <g id="Group_105" data-name="Group 105" transform="translate(5.834 3.696)">
+            <g id="Path_217" data-name="Path 217" transform="translate(-48.91 -418.621)" fill="#5c6d7e" stroke-miterlimit="10">
+              <path d="M 50.42338943481445 425.4393920898438 L 50.32616806030273 425.3421630859375 L 51.44229507446289 424.2308044433594 L 51.7366943359375 423.9376525878906 L 51.7366943359375 423.5221862792969 L 51.7366943359375 419.6210327148438 L 51.86731719970703 419.6210327148438 L 51.86731719970703 423.9908142089844 L 50.42338943481445 425.4393920898438 Z" stroke="none"/>
+              <path d="M 50.42451477050781 426.8547668457031 L 48.91045379638672 425.3406677246094 L 50.7366943359375 423.5221862792969 L 50.7366943359375 418.6210327148438 L 52.86731719970703 418.6210327148438 L 52.86731719970703 424.4040832519531 L 50.42451477050781 426.8547668457031 Z" stroke="none" fill="#5c6d7e"/>
+            </g>
+          </g>
+          <circle id="Ellipse_12" data-name="Ellipse 12" cx="7.813" cy="7.813" r="7.813" fill="none" stroke="#5c6d7e" stroke-miterlimit="10" stroke-width="2.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
