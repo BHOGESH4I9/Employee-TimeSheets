@@ -1,111 +1,94 @@
 [
   {
     "name": "Byron Jett",
-    "project": "Falcom Heavy",
-    "startDate": "2025-06-26T09:00:00",
-    "endDate": "2025-06-26T18:00:00",
-    "lunchStart": "2025-06-26T13:00:00",
-    "lunchEnd": "2025-06-26T13:30:00",
-    "regularHours": 8,
-    "overtimeHours": 1,
-    "totalHours": 9,
-    "tasks": [
-      { "startHour": 9, "endHour": 11, "title": "Feature Integration", "description": "Integrated user authentication module." },
-      { "startHour": 11, "endHour": 13, "title": "Code Review", "description": "Reviewed teammates' merge requests." },
-      { "startHour": 14, "endHour": 17, "title": "Testing", "description": "Performed regression testing on new builds." }
+    "projects": [
+      {
+        "project": "Falcom Heavy",
+        "startDate": "2025-06-26T09:00:00",
+        "endDate": "2025-06-26T12:00:00",
+        "tasks": [
+          { "startHour": 9, "endHour": 11, "title": "Feature Integration", "description": "Integrated user authentication module." },
+          { "startHour": 11, "endHour": 12, "title": "Code Review", "description": "Reviewed teammates' merge requests." }
+        ]
+      },
+      {
+        "project": "Inventory Sync",
+        "startDate": "2025-06-26T14:00:00",
+        "endDate": "2025-06-26T18:00:00",
+        "tasks": [
+          { "startHour": 14, "endHour": 16, "title": "API Integration", "description": "Connected inventory APIs to backend." },
+          { "startHour": 16, "endHour": 18, "title": "Testing", "description": "Performed regression testing on new builds." }
+        ]
+      }
     ]
   },
   {
     "name": "Lana Torres",
-    "project": "UI Redesign",
-    "startDate": "2025-06-26T10:00:00",
-    "endDate": "2025-06-26T19:00:00",
-    "lunchStart": "2025-06-26T14:00:00",
-    "lunchEnd": "2025-06-26T14:45:00",
-    "regularHours": 7,
-    "overtimeHours": 1.25,
-    "totalHours": 8.25,
-    "tasks": [
-      { "startHour": 10, "endHour": 12, "title": "Design Fixes", "description": "Fixed padding and layout issues in dashboard." },
-      { "startHour": 12, "endHour": 14, "title": "Figma Sync", "description": "Updated Figma files with approved changes." },
-      { "startHour": 15, "endHour": 18, "title": "Component Cleanup", "description": "Refactored redundant styled-components." }
+    "projects": [
+      {
+        "project": "UI Redesign",
+        "startDate": "2025-06-26T10:00:00",
+        "endDate": "2025-06-26T13:00:00",
+        "tasks": [
+          { "startHour": 10, "endHour": 12, "title": "Design Fixes", "description": "Fixed layout issues in dashboard." },
+          { "startHour": 12, "endHour": 13, "title": "Figma Sync", "description": "Updated Figma files with changes." }
+        ]
+      },
+      {
+        "project": "Onboarding Portal",
+        "startDate": "2025-06-26T15:00:00",
+        "endDate": "2025-06-26T18:00:00",
+        "tasks": [
+          { "startHour": 15, "endHour": 17, "title": "Component Cleanup", "description": "Refactored redundant components." },
+          { "startHour": 17, "endHour": 18, "title": "Animation Enhancements", "description": "Improved transitions and feedback." }
+        ]
+      }
     ]
   },
   {
     "name": "Marcus Ray",
-    "project": "Timesheet System",
-    "startDate": "2025-06-26T08:30:00",
-    "endDate": "2025-06-26T17:30:00",
-    "lunchStart": "2025-06-26T12:30:00",
-    "lunchEnd": "2025-06-26T13:15:00",
-    "regularHours": 8,
-    "overtimeHours": 0,
-    "totalHours": 8,
-    "tasks": [
-      { "startHour": 9, "endHour": 12, "title": "Backend API", "description": "Implemented time tracking API routes." },
-      { "startHour": 13, "endHour": 16, "title": "Bug Fixing", "description": "Resolved issues in attendance logging." }
+    "projects": [
+      {
+        "project": "Timesheet System",
+        "startDate": "2025-06-26T09:00:00",
+        "endDate": "2025-06-26T12:00:00",
+        "tasks": [
+          { "startHour": 9, "endHour": 11, "title": "Backend API", "description": "Implemented time tracking API." },
+          { "startHour": 11, "endHour": 12, "title": "DB Migration", "description": "Migrated schemas to new DB structure." }
+        ]
+      },
+      {
+        "project": "Payroll Module",
+        "startDate": "2025-06-26T13:00:00",
+        "endDate": "2025-06-26T17:00:00",
+        "tasks": [
+          { "startHour": 13, "endHour": 15, "title": "Validation Rules", "description": "Created validation for tax brackets." },
+          { "startHour": 15, "endHour": 17, "title": "Bug Fixing", "description": "Fixed rounding errors in calculations." }
+        ]
+      }
     ]
   },
   {
     "name": "Sophie Lin",
-    "project": "HR Analytics Dashboard",
-    "startDate": "2025-06-26T09:15:00",
-    "endDate": "2025-06-26T18:45:00",
-    "lunchStart": "2025-06-26T13:15:00",
-    "lunchEnd": "2025-06-26T13:45:00",
-    "regularHours": 8,
-    "overtimeHours": 1.5,
-    "totalHours": 9.5,
-    "tasks": [
-      { "startHour": 9, "endHour": 11, "title": "Data Sync", "description": "Synced HR data from multiple sources." },
-      { "startHour": 11, "endHour": 13, "title": "Dashboard Styling", "description": "Enhanced visualization widgets." },
-      { "startHour": 14, "endHour": 17, "title": "KPI Metrics", "description": "Implemented HR KPI calculation module." }
-    ]
-  },
-  {
-    "name": "Arjun Mehta",
-    "project": "Bug Tracker Tool",
-    "startDate": "2025-06-26T11:00:00",
-    "endDate": "2025-06-26T20:00:00",
-    "lunchStart": "2025-06-26T14:30:00",
-    "lunchEnd": "2025-06-26T15:00:00",
-    "regularHours": 7,
-    "overtimeHours": 2,
-    "totalHours": 9,
-    "tasks": [
-      { "startHour": 11, "endHour": 13, "title": "Bug Triage", "description": "Triaged incoming bugs from QA." },
-      { "startHour": 15, "endHour": 18, "title": "Fix Priority Issues", "description": "Fixed major bugs affecting release." }
-    ]
-  },
-  {
-    "name": "Nikita Rao",
-    "project": "Client Portal",
-    "startDate": "2025-06-26T09:00:00",
-    "endDate": "2025-06-26T17:00:00",
-    "lunchStart": "2025-06-26T12:30:00",
-    "lunchEnd": "2025-06-26T13:00:00",
-    "regularHours": 7.5,
-    "overtimeHours": 0,
-    "totalHours": 7.5,
-    "tasks": [
-      { "startHour": 9, "endHour": 11, "title": "Client Review", "description": "Walkthrough with product owner." },
-      { "startHour": 11, "endHour": 12.5, "title": "Deployment", "description": "Staged client portal to UAT." },
-      { "startHour": 13, "endHour": 16, "title": "Feedback Integration", "description": "Addressed feedback from UAT." }
-    ]
-  },
-  {
-    "name": "Ethan Clarke",
-    "project": "Internal API Gateway",
-    "startDate": "2025-06-26T10:30:00",
-    "endDate": "2025-06-26T19:30:00",
-    "lunchStart": "2025-06-26T13:00:00",
-    "lunchEnd": "2025-06-26T13:45:00",
-    "regularHours": 7.75,
-    "overtimeHours": 1,
-    "totalHours": 8.75,
-    "tasks": [
-      { "startHour": 10.5, "endHour": 13, "title": "API Security", "description": "Applied OAuth 2.0 validation layer." },
-      { "startHour": 14, "endHour": 17.5, "title": "Service Monitoring", "description": "Configured logging and alerts." }
+    "projects": [
+      {
+        "project": "HR Analytics Dashboard",
+        "startDate": "2025-06-26T09:15:00",
+        "endDate": "2025-06-26T13:00:00",
+        "tasks": [
+          { "startHour": 9, "endHour": 11, "title": "Data Sync", "description": "Synced HR data from various sources." },
+          { "startHour": 11, "endHour": 13, "title": "Dashboard Styling", "description": "Improved data widget visualizations." }
+        ]
+      },
+      {
+        "project": "Recruitment Tool",
+        "startDate": "2025-06-26T14:00:00",
+        "endDate": "2025-06-26T18:30:00",
+        "tasks": [
+          { "startHour": 14, "endHour": 17, "title": "KPI Metrics", "description": "Calculated hiring funnel performance." },
+          { "startHour": 17, "endHour": 18.5, "title": "Candidate Screening", "description": "Pre-screened applications." }
+        ]
+      }
     ]
   }
 ]
